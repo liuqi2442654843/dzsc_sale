@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="top.liuqi321.mapper.UserMapper">
+    <select id="select_user" parameterType="top.liuqi321.bean.T_MALL_USER_ACCOUNT"
+            resultType="top.liuqi321.bean.T_MALL_USER_ACCOUNT">
+        select * from t_mall_user_account where yh_mch = #{yh_mch} and yh_mm = #{yh_mm}
+    </select>
+
+    <insert id="adduser" parameterType="top.liuqi321.bean.T_MALL_USER_ACCOUNT">
+        insert into `t_mall_user_account` values (null,#{yh_mch},#{yh_nch},#{yh_mm},#{yh_xm},#{yh_shjh},#{yh_yx},#{yh_tx},#{yh_jb});
+    </insert>
+
+    <sql id="user_sql">
+        id,yh_mch,yh_nch,yh_mm,yh_xm,yh_shjh,yh_yx,yh_tx,yh_jb
+    </sql>
+</mapper>

@@ -1,0 +1,229 @@
+/*
+* @Author: Marte
+* @Date:   2018-08-07 16:50:26
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-09-06 10:57:38
+*/
+img{             /* 解决图片底部有空白缝隙的问题 */
+    vertical-align: middle;
+}
+/* 版心的公共类 */
+.wrap{
+    width:1190px;  /* 京东的版心是1190px */
+    margin: 0 auto; /* 为啥这个版心居中没有效果 */
+}
+/* 浮动的公共类 */
+.fl{
+    float: left;
+}
+.fr{
+    float:right;
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+}
+a:hover{
+    color: #e33333;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul,a,div {
+    margin:0px;
+    padding: 0px;
+}
+input,button{
+    border:0px;
+    outline: none;    /*取消轮廓边框*/
+}
+ul{
+    list-style-type: none;
+}
+body{
+    /*background-color:#f0f3ef;*/
+}
+/*中间头部 部分 over */
+/*页面底部部分*/
+footer{
+    margin-top: 35px;
+    height:500px;
+    /*background-color:#EAEAEA;*/
+}
+/*服务模块*/
+.service{
+    padding:30px 0;  /*上下30px 左右0px 等同文字的垂直居中*/
+    border-bottom:1px solid #DEDEDE;
+    overflow: hidden;    /*清除浮动*/
+}
+.service ul li{
+    width:297.5px;
+    height:43px;
+    position:relative;
+    line-height:43px;
+    float:left;
+}
+.service li h5{
+    position:absolute;
+    top: 0;
+    left:38px;
+    background:url(../imgs/ico.png) no-repeat;
+    width:36px;
+    height:43px;
+    text-indent: -999em;    /*向左移动999个字符 可以便于SEO搜索 字符在浏览器不显示*/
+}
+.service li:nth-child(2) h5{
+    background-position: -41px 0px;    /*对图片进行定位*/
+}
+.service li:nth-child(3) h5{
+    background-position: -82px 0px;
+}
+.service li:nth-child(4) h5{
+    background-position:-123px 0px;
+}
+.service li p{
+    font-weight:700;
+    margin-left:82px;
+}
+/*帮助模块*/
+.help{
+    height:200px;
+    border-bottom:1px solid #DEDEDE;
+    padding-top: 25px;
+    box-sizing: border-box;  /*清除盒子因为padding-top溢出的像素*/
+}
+.help dl{         /*宽度剩余法 （将宽度设置固定像素，等距撑开距离）*/
+    width:192px;
+    float:left;
+}
+.help dt{               /*高度剩余法 （将高商度设置固定像素，等距撑开距离）*/
+    height:30px;
+    font-size:14px;
+    font-weight:700;    /*字体加粗*/
+    color:#666;
+}
+.help dd{
+    height:22px;
+}
+/*范围*/
+.coverage{
+    width:200px;
+    height:150px;
+    background:url(../imgs/sprite.footer.png) no-repeat;
+}
+.coverage h5{
+    height:30px;
+    font-size:14px;
+    color:#666;
+}
+.coverage h5{
+    padding-left:35px;
+}
+.coverage p{
+    font-size:12px;
+    color:#666;
+    line-height:18px;
+    width:180px;
+}
+.coverage a{
+    display:block;
+    margin-top:5px;
+    width:180px;
+    color:#666;
+    text-align:right;
+}
+.coverage a:hover{
+    color:#f10215;
+}
+/*底部版权模块*/
+.copyright{
+    padding-top:25px;
+    text-align:center;
+    font-size:12px;
+    color:#666;
+}
+.copyright span{
+    margin:0px 10px;    /*上下0px 左右10px*/
+}
+.copyright a{
+    color:#666;
+}
+.copyright a:hover{
+    color:#f10215;
+}
+.register{              /* register（登记）*/
+    margin-top:20px;
+}
+.register p{
+    line-height:22px;
+    color:#999;
+}
+.register a{
+    color:#999;
+}
+.Global{
+    display:inline-block;
+    width:15px;
+    height:10px;
+    vertical-align: -1px;
+    margin-right:10px;
+    background:url(../imgs/sprite.footer.png) no-repeat;
+    background-position:-108px -155px;
+}
+.Ca{
+    display:inline-block;
+    width:15px;
+    height:10px;
+    vertical-align: -1px;
+    margin-right:10px;
+    background:url(../imgs/sprite.footer.png) no-repeat;
+    background-position: -168px -155px;
+}
+.Situs{
+    display:inline-block;
+    width:15px;
+    height:10px;
+    vertical-align: -1px;
+    margin-right:10px;
+    background:url(../imgs/sprite.footer.png) no-repeat;
+    background-position: -148px -155px;
+}
+.Sitio{
+    display:inline-block;
+    width:15px;
+    height:10px;
+    vertical-align: -1px;
+    margin-right:10px;
+    background:url(../imgs/sprite.footer.png) no-repeat;
+    background-position:-128px -155px;
+}
+.Thailand{
+    display:inline-block;
+    width:15px;
+    height:10px;
+    vertical-align: -1px;
+    margin-right:10px;
+    background:url(../imgs/sprite.footer.png) no-repeat;
+    background-position:-108px -172px;
+}
+.foot-icon a{
+    display:inline-block;      /* 行内块可以用text-align:center; 来实现居中*/
+    width:103px;
+    height:36px;
+    background:url(../imgs/sprite.footer.png) no-repeat;
+    background-position:-204px 0px;
+    margin:35px 4px;
+}
+.foot-icon a:nth-child(2) {
+    background-position: -204px -111px;    /*对图片进行定位*/
+}
+.foot-icon a:nth-child(3) {
+    background-position: -204px -74px;
+}
+.foot-icon a:nth-child(4) {
+    background-position:-204px -37px;
+}
+.foot-icon a:nth-child(5) {
+    background-position:-204px -148px;
+}
+.foot-icon a:nth-child(6) {
+    background-position:0px -156px;
+}

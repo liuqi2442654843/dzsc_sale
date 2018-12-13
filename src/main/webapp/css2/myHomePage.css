@@ -1,0 +1,97 @@
+/********************通用*****************/
+body,p,span,ul,li,h1,h2,h3,h4,h5,h6,input{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+input,textarea{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+.hidden{
+    display: none;
+}
+.clearfix{}
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/********************通用*****************/
+
+
+.header_mid{
+    border-bottom: 2px solid #f46;
+}
+
+/****************个人中心*****************/
+#body_wrap .cl_wrap{
+    background: #fff;
+    padding:0px;
+    border: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+.navListWrap{
+    width: 140px;
+}
+.cl_nav_wrap{
+    width: 140px;
+    float:left;
+    background-color: #f9f9f9;
+}
+.cl_nav_info{
+   padding:20px 0px;
+}
+.cl_nav_info_avatar{
+    position: relative;
+    margin: 0 auto;
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+}
+.cl_nav_info_uname {
+    padding: 0 10px;
+    text-align: center;
+    font: normal 12px/32px helvetica,tahoma,arial,sans-serif;
+    /* color: #333; */
+}
+
+.cl_nav {
+    padding: 0 20px;
+}
+
+.cl_nav .cl_title{
+    cursor: pointer;
+    border-top: 1px solid #e1e1e1;
+    font: normal 16px/56px Microsoft YaHei,sans-serif;
+    color: #333;
+    background: url(../imgs/xialatiao.png) 72px -3px no-repeat;
+}
+.cl_nav .cl_nav_item{
+    display: block;
+    font: normal 12px/26px helvetica,tahoma,arial,sans-serif;
+}
+.cl_nav .cl_nav_item a{
+    text-decoration: none;
+}
+.cl_nav .cl_nav_item a:hover{
+    color:#f36;
+}
+
+.cl_content_wrap{
+    float:left;
+    width: 1028px;
+    height: 200px;
+    background-color: #ff0077;
+}
+/****************个人中心*****************/

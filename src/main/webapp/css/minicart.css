@@ -1,0 +1,44 @@
+.cl_cat{
+    width: 220px;
+    height: 35px;
+    margin-top: 15px;
+    border: 1px solid #e3e4e5;
+    color: #ef0101;
+    line-height: 35px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.list_Cat{
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #e3e4e5;
+    background-color: #FFFFFF;
+}
+.miniCartList{
+    width: 350px;
+    height: 100px;
+    cursor: pointer;
+}
+.miniCartList img{
+    width: 80px;
+    height: 80px;
+    float:left;
+}
+.miniCartList_mch{
+    width: 200px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 30px;
+    word-wrap:break-word;
+    word-break:break-all;
+    float:left;
+}
+.miniCartList_mch:hover{
+    color:#ef0101;
+}
+.miniCartList_prece{
+    width: 70px;
+    line-height: 35px;
+    float:left;
+}

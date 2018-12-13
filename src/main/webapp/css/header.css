@@ -1,0 +1,24 @@
+/*****************头部属性*******************/
+#cl_header{
+    margin:0 auto;
+
+}
+#cl_header .cl-height{
+    background-color: #FFF;
+    min-height: 40px;
+    margin-bottom: 0px;
+}
+#cl_header .cl-height .container a{
+    height: 40px;
+    padding: 10px 15px;
+}
+#cl_header .cl-height .container button{
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+#cl_header .cl-height .container .gl-list{
+
+}
+
+
+/*****************头部属性*******************/

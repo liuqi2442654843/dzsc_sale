@@ -1,0 +1,11 @@
+/*****************通用属性*******************/
+*{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    color:#FFFFFF;
+}
+/*****************通用属性*******************/

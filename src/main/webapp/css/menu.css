@@ -1,0 +1,171 @@
+
+/*****************轮播图和菜单栏*******************/
+#cl_wrapper{
+}
+#cl_wrapper .cl_wrapper_frame{
+    height: 420px;
+    margin:0 auto;
+}
+#cl_wrapper .pc_banner_wrapper{
+    position: relative;
+    height: 420px;
+}
+
+#cl_wrapper .pc_indexPage_nav_menu{
+    width: 200px;
+    height: 420px;
+    padding:0px;
+    float:left;
+}
+#cl_wrapper .mslide_banners{
+    width: 912px;
+    height:420px;
+    padding:0px;
+    background-color: #3c3c3c;
+    float:left;
+}
+#cl_wrapper .mslide_banners .banners_height{
+    height: 420px;
+}
+
+#cl_wrapper .pc_indexPage_nav_menu .nav_list{
+    width: 200px;
+    height: 420px;
+    border:2px #ff0077 solid;
+}
+.pc_indexPage_nav_menu .nav_list .nav_list_row{
+    width: 200px;
+    height: 42px;
+    cursor: pointer;
+}
+.nav_list_row:hover .nav_wrap{
+    background-color: #fdc6cd;
+}
+.nav_list_row:hover .maintainHover{
+    text-decoration: none;
+    color:#ff0077;
+}
+.nav_list_row .nav_wrap{
+    margin: 0;
+    padding: 11px 0 11px 18px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.maintainHover{
+    text-decoration: none;
+    margin: 0px 3px;
+    color: #333333;
+}
+.nav_wrap .nav_list_title{
+    margin-right: 10px;
+    float:left;
+}
+.nav_wrap .nav_list_content{
+    float:left;
+}
+.tow_nav{
+    position: relative;
+    display: none;
+    overflow: hidden;
+    width: 260px;
+    border-top:2px #ff0077 solid;
+    border-right:2px #ff0077 solid;
+    border-bottom:2px #ff0077 solid;
+    left:197px;
+    padding:20px;
+    margin-top:-42px;
+    background-color: #FFFFFF;
+    z-index: 10;
+}
+.tow_nav a{
+    color: #666;
+    display: inline-block;
+    margin-right: 12px;
+    white-space: nowrap;
+    word-break:keep-all;
+    font-size: 12px;
+    line-height: 26px;
+    text-decoration: none;
+}
+.tow_nav a:hover{
+    color:#ff0077;
+}
+
+/****************** 轮播图 ******************/
+.middle_right{
+    width: 970px;
+    height: 420px;
+    float:left;
+}
+#lunbobox {
+    width:970px;
+    height:420px;
+    position:relative;
+}
+.lunbo {
+    width:970px;
+    height:420px;
+    position: relative;
+    overflow: hidden;
+}
+.lunbo div{
+    width:970px;
+    height:420px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.lunbo img{
+    width: 970px;
+    height: 420px;
+}
+#lunbobox ul {
+    width:170px;
+    position:absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -85px;
+    z-index:5;
+}
+#lunbobox ul li {
+    cursor:pointer;
+    width:18px;
+    height:6px;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    float:left;
+    list-style:none;
+    text-align:center;
+    margin:0px 8px;
+}
+#toleft {
+    width:30px;
+    height:100px;
+    font-size:40px;
+    line-height:100px;
+    color:#f4f4f4;
+    position:absolute;
+    top:160px;
+    left:12px;
+    cursor:pointer;
+    z-index:6;
+    opacity:0.8;
+}
+#toright {
+    width:30px;
+    height:100px;
+    font-size:40px;
+    line-height:100px;
+    color:#f4f4f4;
+    padding-right: 40px;
+    position:absolute;
+    top:160px;
+    right: 12px;
+    cursor:pointer;
+    z-index:6;
+    opacity:0.8;
+}
+#lunbo_action{
+    background-color: #ff0077 !important;
+}
+/*****************轮播图和菜单栏*******************/
